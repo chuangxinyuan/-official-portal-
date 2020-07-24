@@ -1,0 +1,41 @@
+---
+label: Solution
+hide_body: false
+fields:
+  - type: text
+    name: title
+    label: title
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: image
+  - type: feature_group_list
+    name: feature
+    label: feature
+    fields:
+      - type: text
+        name: icon
+        label: icon
+        description: https://themify.me/themify-icons
+      - type: text
+        name: name
+        label: name
+      - type: text
+        name: content
+        label: content
+  - type: scenario_group_list
+    name: scenario
+    label: scenario
+    fields:
+      - name: name
+        type: text
+        label: name
+      - name: image
+        type: file
+        config:
+          maxSize: 250
+        label: image
+      - name: description
+        type: text
+        label: description

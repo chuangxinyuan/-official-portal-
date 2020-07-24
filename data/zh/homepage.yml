@@ -1,0 +1,158 @@
+################################# basic #######################################
+basic: 
+  address: "上海西岸国际人工智能中心43层，上海市徐汇区云锦路701号，200232"
+
+################################# Slider #####################################
+slider:
+  enable: true
+  bg_image: "images/banner/banner.jpg"
+  slider_item:
+    # slider item loop
+    - title: "人工智能创新院"
+      content: "为中国企业提供基于微软技术的人工智能研发平台服务和培训服务，帮助企业和政府决策者推进数字化转型战略落地和人工智能产业发展，助力上海建设国家人工智能发展高地和具有全球影响力的科技创新中心"
+      animation_in: "left"
+      animation_out: "right"
+      # available animation : left, right, up, down
+      button:
+        enable: true
+        label: "联系我们"
+        link: "about"
+        #link: "contact"
+
+    # slider item loop
+    - title: "人工智能实训平台1.0"
+      content: "以微软亚洲研究院研发的OpenPAI（Open Platform for AI）作为关键技术引擎，为快速发展中的人工智能技术培训提供快速部署，一键创建教学环境，并支持定制教学内容的人工智能学习实验环境"
+      animation_in: "left"
+      animation_out: "right"
+      # available animation : left, right, up, down
+      button:
+        enable: true
+        label: "申请试用"
+        link : "product/product-1"  
+
+
+
+############################### Banner feature ###############################
+banner_feature:
+  enable: true
+  image: "images/banner/banner-feature-1.png"
+  feature_item:
+    # feature item loop
+    - name: "人工智能实训平台"
+      icon: "iconfont icon-pingtai" # icon pack : https://themify.me/themify-icons
+      content: "自主可控，基于微软亚洲研究院的Open Platform for AI，以SaaS方式实现在云端一键创建Jupyter Notebook、VS Code等教学环境，并支持TensorFlow、PyTorch等多种深度学习框架"
+
+    # feature item loop
+    - name: "人工智能相关培训"
+      icon: "iconfont icon-peixun" # icon pack : https://themify.me/themify-icons
+      content: "联合微软亚洲研究院等全球顶尖人工智能资源，分享最前沿的科研成果，技术知识和实践经验，提供覆盖管理与技术多层次的人工智能人才培养体系，助力企业构建人工智能赋能的数字化转型能力"
+
+    # feature item loop
+    - name: "人工智能产业联盟"
+      icon: "iconfont icon-lianmeng" # icon pack : https://themify.me/themify-icons
+      content: "母公司上海仪电集团，作为上海人工智能发展联盟的理事长公司，为微软仪电人工智能创新院提供了科技产业平台，联合联盟共同服务上海打造人工智能高地，促进上海人工智能技术、产业、应用的有机协同"
+
+    # feature item loop
+    - name: "人工智能项目研发"
+      icon: "iconfont icon-yanfa" # icon pack : https://themify.me/themify-icons
+      content: "作为仪电集团在人工智能领域的代表企业，仪电人工智能创新院致力于利用最前沿的人工智能科研成果、技术知识和实践经验，依托高品质的科研团队，助力人工智能技术在各行各业的项目研发"
+
+############################# Product ################################
+product:
+  enable: true
+  title: "我们的产品"
+  # course item comes from "content/**/product" folder.
+
+############################## about ##################################
+about:
+  enable: false
+  title: "关于我们"
+  image: "images/about/about-us.png"
+  content: "上海仪电人工智能创新院有限公司（微软-仪电人工智能创新院）是上海仪电集团旗下的子公司、上海政产学研合作执行大型人工智能落地项目的工作空间和开发平台。
+
+创新院致力于引进和扶持人工智能领域的高精尖人才，制定多层次人才培养计划加强人工智能人才梯队建立；不断创新研发人工智能的关键技术，加速人工智能研发落地，将更多先进的人工智能科研成果转化到实际应用中，为中国企业提供基于微软技术的人工智能研发平台服务和培训服务，帮助企业和政府决策者推进数字化转型战略落地和人工智能产业发展，助力上海建设国家人工智能发展高地和具有全球影响力的科技创新中心。"
+  button:
+    enable: true
+    label: "联系我们"
+    link: "about"
+
+########################## Call to action ############################
+cta:
+  enable: false
+  subtitle: "Cliquez pour vous joindre à l’atelier avancé"
+  title: "人工智能技术平台 "
+  button:
+    enable: true
+    label: "申请试用"
+    link: "contact"
+
+
+######################## Success story #############################
+success_story:
+  enable : true
+  bg_image : "images/backgrounds/success-story.jpg"
+  title : "关于我们"
+  content : "上海仪电人工智能创新院有限公司（微软-仪电人工智能创新院）是上海仪电集团旗下的子公司、上海政产学研合作执行大型人工智能落地项目的工作空间和开发平台。
+
+创新院致力于引进和扶持人工智能领域的高精尖人才，制定多层次人才培养计划加强人工智能人才梯队建立；不断创新研发人工智能的关键技术，加速人工智能研发落地，将更多先进的人工智能科研成果转化到实际应用中，为中国企业提供基于微软技术的人工智能研发平台服务和培训服务，帮助企业和政府决策者推进数字化转型战略落地和人工智能产业发展，助力上海建设国家人工智能发展高地和具有全球影响力的科技创新中心。"
+  # video link
+  video_link : ""
+  button:
+    enable: true
+    label: "联系我们"
+    link: "about"
+
+############################# event ################################
+event:
+  enable: false
+  title: "最新活动"
+  # event item comes from "content/**/event" folder.
+
+############################# partner ################################
+partner:
+  enable: true
+  title: "合作伙伴"
+  item:
+
+    - title: "上海证交所"
+      image: "/images/partner/上海证交所.jpg"
+
+    - title: "国泰君安"
+      image: "/images/partner/国泰君安.jpg"
+
+    - title: "浦发银行"
+      image: "/images/partner/浦发银行.png"
+
+    - title: "大数据中心"
+      image: "/images/partner/大数据中心.png"
+
+    - title: "上海仪电"
+      image: "/images/partner/中央研究院.png"
+
+########################### funfacts ############################
+funfacts:
+  enable: false
+  funfact_item:
+    # funfact item loop
+    - name: "ENSEIGNANTS"
+      count: "60"
+
+    # funfact item loop
+    - name: "COURS"
+      count: "50"
+
+    # funfact item loop
+    - name: "ÉTUDIANTS"
+      count: "1000"
+
+    # funfact item loop
+    - name: "CLIENTS SATISFAITS"
+      count: "1400"
+
+# funfact is for about page
+
+############################# blog ################################
+blog:
+  enable: true
+  title: "最新要闻"
+  # blog item comes from "content/**/blog" folder.

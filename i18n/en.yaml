@@ -1,0 +1,147 @@
+- id: read_more
+  translation: Read More
+
+- id: contact_form
+  translation: Contact Form
+
+- id: contact
+  translation: Contact Us
+
+- id: send
+  translation: send message
+
+- id: contact_info
+  translation: Contact Info
+
+- id: subscribe_newsletter
+  translation: Subscribe Newsletter
+
+- id: subscribe
+  translation: Subscribe
+
+- id: contact_us
+  translation: Contact Us
+
+- id: latest_article
+  translation: Latest Article
+
+- id: categories
+  translation: Categories
+
+- id: tags
+  translation: Tags
+
+- id: see_all
+  translation: See all
+
+- id: apply_now
+  translation: Apply now
+
+- id: posted_by
+  translation: Posted by
+
+- id: date
+  translation: Date
+
+- id: time
+  translation: time
+
+- id: category
+  translation: Category
+
+- id: duration
+  translation: duration
+
+- id: location
+  translation: location
+
+- id: entry_fee
+  translation: entry fee
+
+- id: event_speaker
+  translation: Event Speakers
+
+- id: more_event
+  translation: More Events
+
+- id: join
+  translation: Join
+
+- id: enter_email
+  translation: Enter your email…
+
+- id: company
+  translation: company
+
+- id: links
+  translation: links
+
+- id: product
+  translation: Products
+
+- id: related_product
+  translation: Related Products
+
+- id: new_notice
+  translation: new notice
+
+- id: call
+  translation: call
+
+- id: email
+  translation: email
+
+- id: all
+  translation: All
+
+- id: download
+  translation: Download
+
+- id: blog
+  translation: news
+
+- id: AboutUs
+  translation: about us
+
+- id: about
+  translation: about
+
+- id: solution
+  translation: solutions
+
+- id: features
+  translation: Features and advantages
+
+- id: flowchart
+  translation: Solution flowchart
+
+- id: scenarios
+  translation: Application scenarios
+
+- id: QR_code
+  translation: WeChat
+
+- id: subject
+  translation: Your subject
+
+- id: message
+  translation: Describe the details
+
+- id: name
+  translation: Your name
+
+- id: mobile
+  translation: Your mobile
+
+- id: leaders
+  translation: Leaders
+
+- id: defect-detect
+  translation: Defect decect
+
+- id: helmet-detect
+  translation: Smart Monitoring
+
+- id: smart-meter
+  translation: Digital Meter
+

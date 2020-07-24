@@ -1,0 +1,153 @@
+- id: read_more
+  translation: 更多
+
+- id: contact_form
+  translation: Formulaire de contact
+
+- id: contact
+  translation: 联系我们
+
+- id: send
+  translation: 发送
+
+- id: contact_info
+  translation: 联系信息
+
+- id: subscribe_newsletter
+  translation: Abonnement à l’infolettre
+
+- id: subscribe
+  translation: 订阅
+
+- id: contact_us
+  translation: 联系我们
+
+- id: latest_article
+  translation: 最新新闻
+
+- id: categories
+  translation: 类别
+
+- id: tags
+  translation: 标签
+
+- id: see_all
+  translation: 查看更多
+
+- id: apply_now
+  translation: 现在申请
+
+- id: posted_by
+  translation: 作者
+
+- id: date
+  translation: 时间
+
+- id: time
+  translation: heure
+
+- id: category
+  translation: 类别
+
+- id: related_product
+  translation: 相关产品
+
+- id: duration
+  translation: durée
+
+- id: weekly
+  translation: hebdomadairement
+
+- id: fee
+  translation: frais
+
+- id: location
+  translation: 地点
+
+- id: entry_fee
+  translation: frais d’entrée
+
+- id: event_speaker
+  translation: Présentateur•trice·s
+
+- id: more_event
+  translation: 更多活动
+
+- id: join
+  translation: 加入
+
+- id: enter_email
+  translation: 输入邮箱...
+
+- id: company
+  translation: 公司
+
+- id: links
+  translation: 链接
+
+- id: product
+  translation: 产 品
+
+- id: new_notice
+  translation: nouvelle notice
+
+- id: call
+  translation: 电话
+
+- id: email
+  translation: 邮箱
+
+- id: all
+  translation: 所有
+
+- id: download
+  translation: 下载
+
+- id: blog
+  translation: 新闻中心
+
+- id: AboutUs
+  translation: 关于
+
+- id: about
+  translation: 关于公司
+
+- id: solution
+  translation: 解决方案
+
+- id: features
+  translation: 特色优势
+
+- id: flowchart
+  translation: 方案流程
+
+- id: scenarios
+  translation: 应用场景
+
+- id: QR_code
+  translation: 微信公众号
+
+- id: subject
+  translation: 主题
+
+- id: message
+  translation: 请描述具体情况
+
+- id: name
+  translation: 姓名
+
+- id: mobile
+  translation: 手机
+
+- id: leaders
+  translation: 主要领导
+
+- id: defect-detect
+  translation: 缺陷检测
+
+- id: helmet-detect
+  translation: 智慧监管
+
+- id: smart-meter
+  translation: 数字仪表
+

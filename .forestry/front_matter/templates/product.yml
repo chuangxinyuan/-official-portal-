@@ -1,0 +1,37 @@
+---
+label: Product
+hide_body: false
+fields:
+  - type: text
+    name: title
+    label: title
+  - type: datetime
+    name: date
+    label: date
+  - type: file
+    name: bg_image
+    label: bg image
+    description: Page header background image
+  - type: textarea
+    name: description
+    label: description
+    description: meta description
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: category
+    label: category
+    description: product category
+  - type: text
+    name: fee
+    label: fee
+    description: Course fee
+  - type: text
+    name: apply_url
+    label: apply_url
+    description: Application submit link
+  - type: text
+    name: type
+    label: type
+    default: product

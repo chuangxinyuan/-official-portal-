@@ -1,0 +1,37 @@
+{
+  "id": "1881498",
+  "name": "portal",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15311977",
+      "name": "lianmeng",
+      "font_class": "lianmeng",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "15311978",
+      "name": "peixun",
+      "font_class": "peixun",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "15311979",
+      "name": "yanfa",
+      "font_class": "yanfa",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "15311980",
+      "name": "pingtai",
+      "font_class": "pingtai",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{{ define "main" }}
+<section class="section  bg-light">
+  <div class="container">
+    <div class="row ">
+      <div class="col-lg-12 mb-5">
+        <div class="title text-center">
+          <h2 class="section-title">{{ i18n "features" }}</h2>
+        </div>
+      </div>
+      {{ range .Params.feature }}
+      <div class="col-lg-4 col-sm-6 mb-4 d-flex">
+        <i class="{{ .icon }}  feature-icon text-md pt-2"></i>
+        <div class="ml-3">
+          <h4 class="mb-xl-4 mb-lg-3 mb-4">{{ .name | markdownify }}</h4>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 mb-5">
+        <div class="title text-center">
+          <h2 class="section-title">{{ i18n "flowchart" }}</h2>
+        </div>
+      </div>
+      <div class="col-lg-12 mx-auto">
+        <div class="text-center">
+          <figure>
+            {{ if .Params.Image }}
+            <img class="img-fluid mb-4" src="{{.Params.Image | relURL }}">
+            {{ end }}
+          </figure>
+          <hr>
+          {{ .Content }}
+          <hr>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section  bg-light">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-lg-12 mb-5">
+        <div class="title text-center">
+          <h2 class="section-title">{{ i18n "scenarios" }}</h2>
+        </div>
+      </div>
+      {{ range .Params.scenario }}
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0">
+          <img class="card-img-top rounded-0 card-bg" src="{{ .image | relURL }}" alt="{{ .Title }}">
+          <div class="card-body">
+            <h4 class="card-title"><a href="{{ .Permalink }}">{{ .name }}</a></h4>
+            <p class="card-text">{{ .description | truncate 100 }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,46 @@
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+
+PROJECT:	Project Name
+VERSION:	Versoin Number
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[TABLE OF CONTENTS]
+-------------------------------------------------------------------*/
+$primary-color: {{ .Site.Params.style.primaryColor | default "rgb(68, 60, 229)" }};
+$secondary-color: {{ .Site.Params.style.secondaryColor | default "rgba(17, 23, 36, 0.9)" }};
+$text-color: {{ .Site.Params.style.textColor | default "#5c5c77" }};
+$text-color-light: {{ .Site.Params.style.textColorLight | default "#8585a4" }}; 
+$text-color-dark: {{ .Site.Params.style.stextColorDark | default "#1e1e4b" }}; 
+$body-color:{{ .Site.Params.style.bodyColor | default "#fff" }}; 
+$border-color: {{ .Site.Params.style.borderColor | default "#ededf1" }}; 
+$light-blue:{{ .Site.Params.style.lightBlueColor | default "rgb(49, 130, 223)" }}; 
+$light: {{ .Site.Params.style.lightBlueColor | default "#f8f9fe" }};
+$dark: {{ .Site.Params.style.lightBlueColor | default "#f8f8f8" }};
+$overlay-color: {{ .Site.Params.style.overlayColor | default "linear-gradient(to right, rgb(7, 10, 15), rgba(17, 23, 36, 0.3))" }};
+$overlay-light: {{ .Site.Params.style.overlayLight | default "rgba(0, 0, 0, 0.5)" }};
+$white: {{ .Site.Params.style.whiteColor | default "#fff" }};
+$footer-seperator: {{.Site.Params.style.footerSeperator | default "#344f5c"}};
+$footer-color:{{.Site.Params.style.footerColor | default "#182b45"}};
+
+
+
+
+@import 'variables';
+
+@import 'mixins';
+
+@import 'typography';
+
+@import 'buttons';
+
+@import 'common';
+
+@import 'templates/navigation';
+
+@import 'templates/slider';
+
+@import 'templates/homepage';
+
+@import 'templates/otherspage';

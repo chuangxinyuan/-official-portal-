@@ -1,0 +1,161 @@
+################################# basic #######################################
+basic: 
+  address: "Shanghai Westbund International AI Tower, 43F, No. 701, Yunjin Road, Xuhui District Shanghai, 200232, PRC"
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "images/banner/banner.jpg"
+  slider_item:
+    # slider item loop 1
+    - title : "Shanghai AI innovation center"
+      content : "Our mission is to help Shanghai build a national artificial intelligence development highland!"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Contact us"
+        link : "about"
+        #link : "contact"
+
+    # slider item loop 2
+    - title : "Platform for AI"
+      content : "A solution based on Microsoft engine ! One button deployment of AI environment!"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Apply now"
+        link : "product/product-1"
+
+
+############################### Banner feature ###############################
+banner_feature:
+  enable: true
+  image: "images/banner/banner-feature-1.png"
+  feature_item:
+    # feature item loop
+    - name: "SHAIIC AI Lab"
+      icon: "iconfont icon-pingtai" # icon pack : https://themify.me/themify-icons
+      content: "自主可控，基于微软亚洲研究院的Open Platform for AI，以SaaS方式实现在云端一键创建Jupyter Notebook、VS Code等教学环境，并支持TensorFlow、PyTorch等多种深度学习框架"
+
+    # feature item loop
+    - name: "AI training"
+      icon: "iconfont icon-peixun" # icon pack : https://themify.me/themify-icons
+      content: "联合微软亚洲研究院等全球顶尖人工智能资源，分享最前沿的科研成果，技术知识和实践经验，提供覆盖管理与技术多层次的人工智能人才培养体系，助力企业构建人工智能赋能的数字化转型能力"
+
+    # feature item loop
+    - name: "AI Industry Alliance"
+      icon: "iconfont icon-lianmeng" # icon pack : https://themify.me/themify-icons
+      content: "母公司上海仪电集团，作为上海人工智能发展联盟的理事长公司，为微软仪电人工智能创新院提供了科技产业平台，联合联盟共同服务上海打造人工智能高地，促进上海人工智能技术、产业、应用的有机协同"
+
+    # feature item loop
+    - name: "R&D on AI"
+      icon: "iconfont icon-yanfa" # icon pack : https://themify.me/themify-icons
+      content: "作为仪电集团在人工智能领域的代表企业，仪电人工智能创新院致力于利用最前沿的人工智能科研成果、技术知识和实践经验，依托高品质的科研团队，助力人工智能技术在各行各业的项目研发"
+
+
+############################## about ##################################
+about:
+  enable : false
+  title : "About Us"
+  image : "images/about/about-us.jpg"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
+
+
+  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+  button:
+    enable : true
+    label : "Learn more"
+    link : "about"
+
+
+############################# Product ################################
+product:
+  enable : true
+  title : "Our Products"
+  # course item comes from "content/**/course" folder.
+
+########################## Call to action ############################
+cta:
+  enable : false
+  subtitle : "Click to Join the Advance Workshop"
+  title : "Training In Advannce Networking"
+  button:
+    enable : true
+    label : "join now"
+    link : "contact"
+    
+######################## Success story #############################
+success_story:
+  enable : true
+  bg_image : "images/backgrounds/success-story.jpg"
+  title : "About Us"
+  content : "上海仪电人工智能创新院有限公司（微软-仪电人工智能创新院）是上海仪电集团旗下的子公司、上海政产学研合作执行大型人工智能落地项目的工作空间和开发平台。
+
+创新院致力于引进和扶持人工智能领域的高精尖人才，制定多层次人才培养计划加强人工智能人才梯队建立；不断创新研发人工智能的关键技术，加速人工智能研发落地，将更多先进的人工智能科研成果转化到实际应用中，为中国企业提供基于微软技术的人工智能研发平台服务和培训服务，帮助企业和政府决策者推进数字化转型战略落地和人工智能产业发展，助力上海建设国家人工智能发展高地和具有全球影响力的科技创新中心。"
+  # video link
+  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+  button:
+    enable: true
+    label: "Contact us"
+    link: "about"
+
+############################# event ################################
+event:
+  enable : false
+  title : "Upcoming Events"
+  # event item comes from "content/**/event" folder.
+
+############################# partner ################################
+partner:
+  enable : true
+  title : "Our Partners"
+  item:
+
+    - title: "上海证交所"
+      image: "/images/partner/上海证交所.jpg"
+
+    - title: "国泰君安"
+      image: "/images/partner/国泰君安.jpg"
+
+    - title: "浦发银行"
+      image: "/images/partner/浦发银行.png"
+    
+    - title: "大数据中心"
+      image: "/images/partner/大数据中心.png"
+
+    - title: "上海仪电"
+      image: "/images/partner/中央研究院.png"
+
+  
+########################### funfacts ############################
+funfacts:
+  enable : false
+  funfact_item:
+    # funfact item loop
+    - name : "TEACHERS"
+      count : "60"
+
+    # funfact item loop
+    - name : "COURSES"
+      count : "50"
+
+    # funfact item loop
+    - name : "STUDENTS"
+      count : "1000"
+
+    # funfact item loop
+    - name : "SATISFIED CLIENT"
+      count : "1400"
+
+# funfact is for about page
+
+
+
+############################# blog ################################
+blog:
+  enable : true
+  title : "Latest News"
+  # blog item comes from "content/**/blog" folder.
