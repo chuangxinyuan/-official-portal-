@@ -1,5 +1,5 @@
 ---
-title: "人工智能人才培养"
+title: "AIM人工智能人才培养"
 date: 2020-12-21T13:11:32+08:00
 draft: false
 bg_image: "images/backgrounds/page-title.jpg"
