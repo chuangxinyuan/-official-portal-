@@ -28,6 +28,11 @@ fields:
     label: fee
     description: Course fee
   - type: text
+    name: apply_name
+    label: apply_name
+    description: Application submit link name
+    default: "现在申请"
+  - type: text
     name: apply_url
     label: apply_url
     description: Application submit link

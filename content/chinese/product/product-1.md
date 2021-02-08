@@ -9,7 +9,7 @@ description : "人工智能实训平台1.0预览版发布！！！"
 # course thumbnail
 image: "images/products/product.png"
 # apply url
-apply_url : "http://ailab.shaiic.com:8000/login"
+apply_url : "http://ailab.shaiic.com"
 # type
 type: "product"
 ---
