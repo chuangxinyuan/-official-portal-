@@ -5,9 +5,10 @@ draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "人工智能实训平台1.0预览版发布！！！"
+description : "人工智能实训平台2.0预览版发布！！！"
 # course thumbnail
 image: "images/products/product.png"
+apply_name : "申请试用"
 # apply url
 apply_url : "http://ailab.shaiic.com"
 # type
