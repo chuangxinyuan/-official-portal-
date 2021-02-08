@@ -20,7 +20,7 @@ slider:
         #link: "contact"
 
     # slider item loop
-    - title: "人工智能实训平台1.0"
+    - title: "人工智能实训平台2.0"
       content: "以微软亚洲研究院研发的OpenPAI（Open Platform for AI）作为关键技术引擎，为快速发展中的人工智能技术培训提供快速部署，一键创建教学环境，并支持定制教学内容的人工智能学习实验环境"
       animation_in: "left"
       animation_out: "right"
