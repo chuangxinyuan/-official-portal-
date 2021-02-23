@@ -50,6 +50,8 @@ apply_url : "http://ailab.shaiic.com"
 
 ![](/images/products/product2-20201221093051.jpg)
 
+**AIE（人工智能实战工程师）**
+
 **课程特色**
 
 通过人工智能实训平台和相关AI课程体系形成“实用、实操、实践”的课程模式：
