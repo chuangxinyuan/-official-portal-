@@ -40,3 +40,7 @@ fields:
     name: type
     label: type
     default: product
+  - type: text
+    name: category
+    label: category
+    default: product-course

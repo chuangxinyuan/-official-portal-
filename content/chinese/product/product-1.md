@@ -13,6 +13,7 @@ apply_name : "申请试用"
 apply_url : "http://ailab.shaiic.com"
 # type
 type: "product"
+category: "product-course"
 ---
 
 

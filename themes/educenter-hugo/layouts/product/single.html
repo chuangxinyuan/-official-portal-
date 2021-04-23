@@ -9,13 +9,13 @@
         <!-- <div class="w-100 bg-cover" style="background-image: url('{{ .Params.Bg_image | relURL}}'),url('{{`images/backgrounds/page-title.jpg`| relURL}}');">
 
         </div> -->
-        <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.Image | relURL }}"
+        <img style="width: 100%;object-fit: cover;" src="{{ .Params.Image | relURL }}"
           class="img-fluid w-100">
       </div>
     </div>
     <!-- course info -->
     <div class="row align-items-center mb-5">
-      <div class="col-xl-9 order-1 col-sm-6 mb-xl-0">
+      <div class="col-12 col-xl-9 order-1 col-sm-6 mb-xl-0">
         <h2>{{ .Title }}</h2>
       </div>
 
@@ -29,7 +29,7 @@
     </div>
     <!-- product details -->
     <div class="row">
-      <div class="col-12 mb-4 content">
+      <div class="col-12 mb-5 newsbody">
         {{ .Content }}
       </div>
     </div>

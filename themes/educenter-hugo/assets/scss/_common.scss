@@ -460,9 +460,14 @@ blockquote {
 }
 
 .portrait-bg {
-  height: 350px;
+  height: 17rem;
   width: 100%;
-  object-fit: cover;
+}
+
+.teacher-avatar {
+  height: 12rem;
+  width: 100%;
+}
 
 .email-icon {
   width: 7rem;

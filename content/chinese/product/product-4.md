@@ -1,14 +1,14 @@
 ---
-title: "AIM人工智能人才培养"
+title: "FFF"
 date: 2020-12-21T13:11:32+08:00
 draft: false
 bg_image: "images/backgrounds/page-title.jpg"
-description : "“三位一体” 人工智能人才培养体系"
+description : "“三位” 人工智能人才培养体系"
 image: "images/products/product2-20201221092049.png"
 type: "product"
-category: "product-event"
+category: "product-course"
 apply_name: "申请报名"
-apply_url : "mailto:info@shaiic.com"
+apply_url : "http://ailab.shaiic.com"
 ---
 
 ### “三位一体” 人工智能人才培养体系：

@@ -1,16 +1,105 @@
 {{ define "main" }}
 
 <!-- courses -->
-<section class="section">
+<section class="section pt-2 pt-lg-4">
   <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">{{ i18n "product-category" }}</h2>
+      </div>
+    </div>
     <!-- course list -->
     <div class="row justify-content-start">
-      <!-- course item -->
-      {{ range .Data.Pages }}
-      <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "product" }}
+      <div class="accordion col-12" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="">
+              <button class="btn btn-link p-1" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                课程
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="row justify-content-start" style="min-height:1px;padding:1.25rem">
+              <!-- course item -->
+              {{ range where .Site.Pages "Params.category" "product-course"}}
+              <div class="col-lg-4 col-12 mb-3">
+                {{ .Render "product" }}
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link p-1 collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                活动
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="row justify-content-start" style="min-height:1px;padding:1.25rem">
+              <!-- course item -->
+              {{ range where .Site.Pages "Params.category" "product-event" }}
+              <div class="col-lg-4 col-12 mb-3">
+                {{ .Render "product" }}
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link p-1 collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                讲师
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="row justify-content-start" style="min-height:1px;padding:1.25rem">
+              <!-- course item -->
+              <!-- {{ range where .Site.Pages "Params.category" "product-teacher" }}
+              <div class="col-lg-4 col-12 mb-3">
+                {{ .Render "product" }}
+              </div>
+              {{ end }} -->
+              <!-- teacher -->
+              <!-- {{ range first 3  (where .Site.RegularPages "Type" "teacher")}}
+              <div class="col-lg-12 col-sm-6 mb-2 mb-lg-0 ">
+                {{ .Render "teacher" }}
+              </div>
+              {{ end }} -->
+              <div class="border-0 rounded-0 hover-shadow col-lg-12 col-sm-6 mb-2 mb-lg-0 row justify-content-center align-items-center">
+                <img class="card-img-top rounded-0 teacher-avatar col-xl-4 " style="object-fit: fill;" src="/images/backgrounds/page-title.jpg" alt="{{ .Title }}">
+                <div class="card-body col-xl-8">
+                  <h4 class="card-title">利昂内尔·梅西</h4>
+                  <p>前锋</p>
+                  <p>生于阿根廷圣菲省罗萨里奥，拥有加泰罗尼亚及意大利血统[2]，现时效力于西甲豪门巴塞罗那，同时担任阿根廷国家队及巴塞罗那俱乐部的队长。场上主要担任边锋，也可以担任前锋并回撤为前腰，目前他共获得10次西甲联赛冠军、4次欧冠冠军、6座欧洲金靴奖、6次欧联最佳射手、6座金球奖及6次FIFA国际世界足球先生，他是世界足坛历史上最伟大的传奇球王及超级巨星之一，阿根廷足球历史上的传奇球王，他和C罗一直处于世界足坛的巅峰水准。</p>
+                </div>
+              </div>
+              <div class="border-0 rounded-0 hover-shadow col-lg-12 col-sm-6 mb-2 mb-lg-0 row justify-content-center align-items-center">
+                <img class="card-img-top rounded-0 teacher-avatar col-xl-4 " style="object-fit: fill;" src="/images/backgrounds/page-title.jpg" alt="{{ .Title }}">
+                <div class="card-body col-xl-8">
+                  <h4 class="card-title">约书亚·基米希</h4>
+                  <p>中场</p>
+                  <p>德国足球运动员，在场上司职中场或右后卫。现任德国国脚，效力于德甲俱乐部拜仁慕尼黑。他虽然体格较为矮小，但控球稳健、出球的节奏和准度都十分出色，常被拿来和前德国队长拉姆比较。</p>
+                </div>
+              </div>
+              <div class="border-0 rounded-0 hover-shadow col-lg-12 col-sm-6 mb-2 mb-lg-0 row justify-content-center align-items-center">
+                <img class="card-img-top rounded-0 teacher-avatar col-xl-4 " style="object-fit: fill;" src="/images/backgrounds/page-title.jpg" alt="{{ .Title }}">
+                <div class="card-body col-xl-8">
+                  <h4 class="card-title">曼努埃尔·诺伊尔</h4>
+                  <p>守门员</p>
+                  <p>诺伊尔被部分媒体誉为当今及历史上最好的守门员之一，且被视作为一位全面性及现代风格的守门员。Goal.com作家 Peter Staunton 认为诺伊尔是 "自列夫·雅辛以来最好的守门员"。[48]作为一位身材条件良好的球员，他被名宿及评论员认为他具有速度、体力、冷静、专注力、心理素质及稳定表现的能力，可以处理球场上发生的所有情况。最为人所称的是他出色的反应能力、挡球能力(无论是手或腿部)、灵活性、冲刺速度、脚法、拦截横传球及阅读比赛的能力，并能在他的守备范围内有效发挥。如此一来，可以使团队的后防线向前推进，对守门员的定位有着革命性的影响。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      {{ end }}
     </div>
     <!-- /course list -->
   </div>
