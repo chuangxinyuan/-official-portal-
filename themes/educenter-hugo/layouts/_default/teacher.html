@@ -1,9 +1,10 @@
-<div class="card border-0 rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0 portrait-bg" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
-  <div class="card-body">
+<div class="border-0 rounded-0 hover-shadow mb-0 mb-xl-5 row justify-content-center">
+  <img class="card-img-top rounded-0 portrait-bg col-xl-6" style="object-fit: contain;" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+  <div class="card-body col-xl-6">
     <!-- <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4> -->
     <h4 class="card-title">{{ .Title }}</h4>
     <p>{{ .Params.Course }}</p>
+    <p>{{ .Params.bio }}</p>
     <!-- <ul class="list-inline">
       {{ range .Params.Contact }}
       <li class="list-inline-item"><a class="text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>

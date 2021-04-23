@@ -51,10 +51,10 @@ link = "plugins/filterizr/jquery.filterizr.min.js"
 [[menu.main]]
 name = "product"
 URL = "product"
-weight = 1
+weight = 2
 
 [[menu.main]]
-weight = 2
+weight = 1
 name = "solution"
 hasChildren = true
 
@@ -73,29 +73,47 @@ hasChildren = true
   name = "smart-meter"
   URL = "solution/smart-meter"
 
+[[menu.main]]
+name = "blog"
+URL = "blog"
+weight = 3
 
+[[menu.main]]
+name = "recruitment"
+URL = "about/staff"
+weight = 4
 
 [[menu.main]]
 name = "AboutUs"
-weight = 3
+weight = 5
 hasChildren = true
 
    [[menu.main]]
    parent = "AboutUs"
    name = "contact"
    URL = "about"
-   # URL = "contact"
-
-   # [[menu.main]]
-   # parent = "AboutUs"
-   # name = "contact"
+   weight = 1
    # URL = "contact"
 
    [[menu.main]]
    parent = "AboutUs"
-   name = "blog"
+   name = "partyAffair"
    URL = "blog"
-  
+   weight = 2
+
+   [[menu.main]]
+   parent = "AboutUs"
+   name = "partner"
+   URL = "blog"
+   weight = 3
+
+   [[menu.main]]
+   parent = "AboutUs"
+   name = "staff"
+   URL = "about/staff"
+   weight = 4
+
+
 # about menu
 [[menu.about]]
 name = "contact"

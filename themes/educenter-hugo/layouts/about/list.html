@@ -16,11 +16,32 @@
   </div>
 </section>
 <!-- /about -->
-<section class="section-sm bg-primary">
+
+<!-- teacher -->
+<!-- {{ if $data.homepage.blog.enable }}
+<section class="section">
   <div class="container">
     <div class="row">
-      <!-- funfacts item -->
+      <div class="col-12">
+        <h2 class="section-title">{{ i18n "leaders" }}</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      {{ range first 3  (where .Site.RegularPages "Type" "teacher")}}
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 ">
+        {{ .Render "teacher" }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }} -->
+<!-- /teacher -->
 
+<!-- funfacts -->
+<!-- <section class="section-sm bg-primary">
+  <div class="container">
+    <div class="row">
       <div class="col-12 mb-4 mb-md-0">
         <div class="text-center">
           <h4 class="text-white">{{ i18n "contact" }}: <a
@@ -31,13 +52,11 @@
   </div>
 </section>
 
-<!-- funfacts -->
 {{ if $data.homepage.funfacts.enable }}
 {{ with $data.homepage.funfacts }}
 <section class="section-sm bg-primary">
   <div class="container">
     <div class="row">
-      <!-- funfacts item -->
       {{ range .funfact_item }}
       <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
         <div class="text-center">
@@ -50,33 +69,9 @@
   </div>
 </section>
 {{ end }}
-{{ end }}
+{{ end }} -->
 <!-- /funfacts -->
 
-<!-- success story -->
-<!-- {{ partial "success-story.html" . }} -->
-<!-- /success story -->
 
-<!-- teacher -->
-{{ if $data.homepage.blog.enable }}
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="section-title">{{ i18n "leaders" }}</h2>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <!-- teacher -->
-      {{ range first 3  (where .Site.RegularPages "Type" "teacher")}}
-      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 ">
-        {{ .Render "teacher" }}
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-<!-- /teacher -->
 
 {{ end }}
