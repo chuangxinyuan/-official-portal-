@@ -5,7 +5,7 @@
   translation: Formulaire de contact
 
 - id: contact
-  translation: 联系我们
+  translation: 公司简介
 
 - id: send
   translation: 发送
@@ -86,7 +86,10 @@
   translation: 链接
 
 - id: product
-  translation: 产 品
+  translation: 人才培养
+
+- id: product-category
+  translation: 产品分类
 
 - id: new_notice
   translation: nouvelle notice
@@ -107,13 +110,25 @@
   translation: 新闻中心
 
 - id: AboutUs
-  translation: 关于
+  translation: 关于我们
+
+- id: staff
+  translation: 员工风采
+
+- id: partyAffair
+  translation: 党群工作
+
+- id: partner
+  translation: 合作伙伴
+
+- id: recruitment
+  translation: 招贤纳士
 
 - id: about
   translation: 关于公司
 
 - id: solution
-  translation: 解决方案
+  translation: 创新赋能
 
 - id: features
   translation: 特色优势

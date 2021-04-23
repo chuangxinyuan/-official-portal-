@@ -1,5 +1,5 @@
 ---
-title: "关于企业"
+title: "公司简介"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"

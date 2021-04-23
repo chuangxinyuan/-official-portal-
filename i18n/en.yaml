@@ -77,7 +77,10 @@
   translation: links
 
 - id: product
-  translation: Products
+  translation: Personnel training
+
+- id: product-category
+  translation: product category
 
 - id: related_product
   translation: Related Products
@@ -103,11 +106,23 @@
 - id: AboutUs
   translation: about us
 
+- id: staff
+  translation: staff
+
+- id: partyAffair
+  translation: Party Affairs
+
+- id: partner
+  translation: partner
+
+- id: recruitment
+  translation: recruitment
+
 - id: about
   translation: about
 
 - id: solution
-  translation: solutions
+  translation: Innovation
 
 - id: features
   translation: Features and advantages
