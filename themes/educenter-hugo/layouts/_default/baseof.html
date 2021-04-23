@@ -9,6 +9,13 @@
 	{{ end }}
 	{{- block "main" . }}{{- end }}
 	{{- partial "footer.html" . -}}
+
+	<a class="email-icon btn-primary d-none d-sm-block" href="mailto:info@shaiic.com" target="_blank">
+		&nbsp; &nbsp;&nbsp;联系我们
+		<svg xmlns="http://www.w3.org/2000/svg" width="36" height="26" fill="currentColor" class="bi bi-envelope-fill" viewBox="-10 2 26 16" data-darkreader-inline-fill="" style="--darkreader-inline-fill:currentColor;">
+			<path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"></path>
+		</svg>
+	</a>
 </body>
 
 </html>
