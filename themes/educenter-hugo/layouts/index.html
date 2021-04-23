@@ -41,7 +41,7 @@
 <section class="bg-darken overflow-md-hidden">
   <div class="container-fluid p-0">
     <div class="row no-gutters">
-      <div class="col-lg-4 align-self-end  row justify-content-center py-5 px-2">
+      <div class="col-lg-4 align-self-end  row justify-content-center py-5 px-2  d-none d-sm-block">
         <div class="img-fluid w-100">
           <img class="w-100" src="{{ .image | absURL }}" alt="banner-feature">
         </div>
@@ -49,11 +49,11 @@
       <div class="col-lg-8">
         <div class="row feature-blocks bg-darken justify-content-between">
           {{ range .feature_item }}
-          <div class="col-sm-6 col-xl-6 mb-xl-5  mb-4 d-flex">
-            <i class="{{ .icon }}  feature-icon text-lg mr-5" style="width: 42px;"></i>
+          <div class="col-12 col-xl-6 mb-xl-5  mb-1 d-flex">
+            <i class="{{ .icon }}  feature-icon text-lg mr-3 mr-lg-5 " style="width: 42px;"></i>
             <div>
-              <h4 class="mb-xl-4 mb-lg-3 mb-4">{{ .name | markdownify }}</h4>
-              <p class="pr-4">{{ .content | markdownify }}</p>
+              <h4 class="mb-xl-4 mb-lg-3 mb-4 pl-1">{{ .name | markdownify }}</h4>
+              <p class="pr-xl-4">{{ .content | markdownify }}</p>
             </div>
           </div>
           {{ end }}
@@ -131,6 +131,7 @@
 </section>
 {{ end }}
 <!-- /products -->
+
 <!-- cta -->
 {{ if $data.homepage.cta.enable }}
 {{ with $data.homepage.cta }}
@@ -225,10 +226,10 @@
         <h2 class="section-title">{{ $data.homepage.partner.title }}</h2>
       </div>
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-around">
       {{ range .item }}
-      <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
-        <img src="{{ .image | absURL }}" width="100%" style="max-width:95%;max-height: 90px" class="mb-5" />
+      <div class="col-lg-2 col-8 mb-3 mb-lg-0">
+        <img src="{{ .image | absURL }}" width="100%" style="max-width:95%;max-height: 90px" class="mb-1" />
       </div>
       {{end}}
     </div>
