@@ -218,6 +218,12 @@
   background-color: $footer-color;
 }
 
+.bg-front6 {
+  background: url('/images/bg-front6.svg');
+  background-size: 120% 80%;
+  z-index: 9999;
+}
+
 .logo-footer {
   margin-top: -20px;
   display: inline-block;
@@ -238,10 +244,23 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
+.homepage-solution-group {
+  margin-left: -4rem;
+  margin-right: -4rem;
+}
+
 /* /footer */
 
 @media (max-width: 468px) {
   .success-video {
     min-height: 70px;
+  }
+  .bg-front6 {
+    background: transparent;
+    z-index: 9999;
+  }
+  .homepage-solution-group {
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
 }

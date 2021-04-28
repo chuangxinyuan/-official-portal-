@@ -41,7 +41,7 @@
 <section class="bg-darken overflow-md-hidden">
   <div class="container-fluid p-0">
     <div class="row no-gutters">
-      <div class="col-lg-4 align-self-end  row justify-content-center py-5 px-2  d-none d-sm-block">
+      <div class="col-lg-4 align-self-end  row justify-content-center p-1  d-none d-sm-block">
         <div class="img-fluid w-100">
           <img class="w-100" src="{{ .image | absURL }}" alt="banner-feature">
         </div>
@@ -95,8 +95,46 @@
 <!-- /about us -->
 
 <!-- product -->
+{{ if $data.homepage.solution.enable }}
+<section class="py-2 ">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.solution.title }}</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <!-- <div>
+            <a href="{{ `product` | relLangURL }}"
+              class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- product list -->
+    <div class="card-group homepage-solution-group">
+      <!-- product item -->
+      {{ range first 5 (where .Site.RegularPages "Type" "solution")}}
+      <div class="card mx-2">
+        {{ .Render "solution" }}
+      </div>
+      {{ end }}
+    </div>
+    <!-- /product list -->
+    <!-- mobile see all button -->
+    <!-- <div class="row">
+      <div class="col-12 text-center">
+        <a href="{{ `product` | relLangURL }}"
+          class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
+      </div>
+    </div> -->
+  </div>
+</section>
+{{ end }}
+<!-- /products -->
+
+<!-- product -->
 {{ if $data.homepage.product.enable }}
-<section class="section-sm ">
+<section class="py-2 ">
   <div class="container">
     <div class="row">
       <div class="col-12">
