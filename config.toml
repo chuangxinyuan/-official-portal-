@@ -150,7 +150,7 @@ URL = "scholarship"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/logo3.png"
 qrcode = "images/QR.png"
 # Meta data
 description = "微软-仪电人工智能创新院"
