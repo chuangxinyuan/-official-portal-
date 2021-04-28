@@ -1,5 +1,5 @@
 ---
-title: "缺陷检测"
+title: "AI+金融"
 # page title background image
 bg_image: "images/solution/solution-2.jpg"
 type: "solution"
