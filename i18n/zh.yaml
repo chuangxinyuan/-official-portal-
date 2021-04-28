@@ -158,11 +158,17 @@
   translation: 主要领导
 
 - id: defect-detect
-  translation: 缺陷检测
+  translation: AI+金融
 
 - id: helmet-detect
-  translation: 智慧监管
+  translation: AI+医疗
 
 - id: smart-meter
-  translation: 数字仪表
+  translation: AI+制造
+
+- id: AI+Logistics
+  translation: AI+物流
+
+- id: AI+School
+  translation: AI+校园
 

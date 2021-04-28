@@ -8,6 +8,12 @@ slider:
   bg_image: "images/banner/banner.jpg"
   slider_item:
     # slider item loop
+    - title: "携手服务国家战略，科技助力创新转型"
+      content: "上海仪电人工智能创新院有限公司，是由上海仪电集团投资设立，面向政产学研合作执行人工智能项目的工作空间和开发平台，通过持续研发人工智能关键技术，加速将科研成果转化到实际应用中，通过制定多层次人才培养计划，帮助上海加强人工智能人才队伍建设。"
+      animation_in: "left"
+      animation_out: "right"
+      # available animation : left, right, up, down
+
     - title: "人工智能创新院"
       content: "为中国企业提供基于微软技术的人工智能研发平台服务和培训服务，帮助企业和政府决策者推进数字化转型战略落地和人工智能产业发展，助力上海建设国家人工智能发展高地和具有全球影响力的科技创新中心"
       animation_in: "left"
@@ -57,10 +63,16 @@ banner_feature:
       icon: "iconfont icon-yanfa" # icon pack : https://themify.me/themify-icons
       content: "作为仪电集团在人工智能领域的代表企业，仪电人工智能创新院致力于利用最前沿的人工智能科研成果、技术知识和实践经验，依托高品质的科研团队，助力人工智能技术在各行各业的项目研发"
 
+############################# Solution ################################
+solution:
+  enable: true
+  title: "创新赋能"
+  # course item comes from "content/**/product" folder.
+
 ############################# Product ################################
 product:
   enable: true
-  title: "我们的产品"
+  title: "人才培养"
   # course item comes from "content/**/product" folder.
 
 ############################## about ##################################

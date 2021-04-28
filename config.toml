@@ -73,6 +73,16 @@ hasChildren = true
   name = "smart-meter"
   URL = "solution/smart-meter"
 
+  [[menu.main]]
+  parent = "solution"
+  name = "AI+Logistics"
+  URL = "solution/s1"
+
+  [[menu.main]]
+  parent = "solution"
+  name = "AI+School"
+  URL = "solution/s2"
+
 [[menu.main]]
 name = "blog"
 URL = "blog"
@@ -80,7 +90,7 @@ weight = 3
 
 [[menu.main]]
 name = "recruitment"
-URL = "about/staff"
+URL = "recruitment"
 weight = 4
 
 [[menu.main]]

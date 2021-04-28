@@ -68,6 +68,13 @@ sections:
     match: "**/*"
     templates:
       - product
+  - type: directory
+    path: content/chinese/solution
+    label: Product (zh)
+    create: documents
+    match: "**/*"
+    templates:
+      - product
   # - type: heading
   #   label: Notice
   # - type: directory
