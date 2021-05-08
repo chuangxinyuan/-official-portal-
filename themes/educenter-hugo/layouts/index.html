@@ -204,7 +204,7 @@
     <div class="row justify-content-center">
       <!-- blog post -->
 
-      <ul class="list-unstyled w-100 pl-3">
+      <ul class="list-unstyled w-100 px-3">
         <!-- notice item -->
         {{ range first 4 (where .Site.RegularPages "Type" "post")}}
         {{ .Render "notice" }}
