@@ -107,14 +107,14 @@ hasChildren = true
 
    [[menu.main]]
    parent = "AboutUs"
-   name = "partyAffair"
-   URL = "blog"
+   name = "party_affair"
+   URL = "party_affair"
    weight = 2
 
    [[menu.main]]
    parent = "AboutUs"
    name = "partner"
-   URL = "blog"
+   URL = "partner"
    weight = 3
 
    [[menu.main]]
