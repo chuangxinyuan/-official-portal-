@@ -5,7 +5,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="section-title">{{ i18n "product-category" }}</h2>
+        <!-- <h2 class="section-title">{{ i18n "product-category" }}</h2> -->
       </div>
     </div>
     <!-- course list -->
@@ -23,6 +23,34 @@
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="row justify-content-start" style="min-height:1px;padding:1.25rem">
               <!-- course item -->
+              <h2 class="col-12">人工智能：</h2>
+              {{ range where .Site.Pages "Params.category" "product-course"}}
+              <div class="col-lg-4 col-12 mb-3">
+                {{ .Render "product" }}
+              </div>
+              {{ end }}
+              <h2 class="col-12">大数据：</h2>
+              {{ range where .Site.Pages "Params.category" "product-course"}}
+              <div class="col-lg-4 col-12 mb-3">
+                {{ .Render "product" }}
+              </div>
+              {{ end }}
+              {{ range where .Site.Pages "Params.category" "product-course"}}
+              <div class="col-lg-4 col-12 mb-3">
+                {{ .Render "product" }}
+              </div>
+              {{ end }}
+              {{ range where .Site.Pages "Params.category" "product-course"}}
+              <div class="col-lg-4 col-12 mb-3">
+                {{ .Render "product" }}
+              </div>
+              {{ end }}
+              {{ range where .Site.Pages "Params.category" "product-course"}}
+              <div class="col-lg-4 col-12 mb-3">
+                {{ .Render "product" }}
+              </div>
+              {{ end }}
+              <h2 class="col-12">普及课：</h2>
               {{ range where .Site.Pages "Params.category" "product-course"}}
               <div class="col-lg-4 col-12 mb-3">
                 {{ .Render "product" }}
