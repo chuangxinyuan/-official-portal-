@@ -1,0 +1,18 @@
+<!-- <li class="d-md-table border mb-2 w-100 border-bottom hover-shadow">
+  <div class="d-md-table-cell text-center p-3 bg-primary text-white mb-4 mb-md-0"><span
+    class="h2 d-block">{{ .PublishDate.Format "06"}}</span> {{ .PublishDate.Format "01, 2006"}}</div>
+    <a href="{{ .Permalink }}">
+      <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+        <a href="{{ .Permalink }}" class="h3 mb-1 d-block">{{ .Title }}</a>
+        <p class="mb-0">{{ .Summary | truncate 100 }}</p>
+      </div>
+    </a>
+</li> -->
+<div class="w-100 border-0 rounded-0 align-bottom hover-shadow row justify-content-end align-items-end" style="height: 20%;position: absolute;bottom: 0;background-color: rgba(15, 24, 36, .6);">
+  <!-- <img class="card-img-top rounded-0 leader-bg col-xl-12 mt-5" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}" style="height: 20rem;"> -->
+  <div class="card-body">
+    <h4 class="text-center align-top" style="color: white;line-height: 0rem;font-size: 1.3rem;">{{ .Params.title }}</h4>
+    <!-- <p>{{ .Params.Course }}</p> -->
+    <!-- <p>{{ .Params.bio }}</p> -->
+  </div>
+</div>

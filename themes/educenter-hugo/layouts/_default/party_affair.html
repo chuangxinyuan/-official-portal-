@@ -1,0 +1,26 @@
+{{ define "main" }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<!-- section -->
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <!-- course thumb -->
+        <!-- <div class="w-100 bg-cover" style="background-image: url('{{ .Params.Bg_image | relURL}}'),url('{{`images/backgrounds/page-title.jpg`| relURL}}');">
+
+        </div> -->
+        <img style="width: 100%;object-fit: cover;" src="{{ .Params.Image | relURL }}"
+          class="img-fluid w-100">
+      </div>
+    </div>
+    <!-- product details -->
+    <div class="row">
+      <div class="col-12 mb-5 newsbody">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /section -->
+
+{{ end }}

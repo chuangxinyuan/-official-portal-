@@ -109,7 +109,7 @@
 - id: staff
   translation: staff
 
-- id: partyAffair
+- id: party_affair
   translation: Party Affairs
 
 - id: partner

@@ -1,0 +1,10 @@
+<li class="d-md-table border mb-2 w-100 border-bottom hover-shadow" style="list-style-type:none">
+  <div class="d-md-table-cell text-center p-3 bg-primary text-white mb-4 mb-md-0"><span
+    class="h2 d-block">{{ .PublishDate.Format "06"}}</span> {{ .PublishDate.Format "01, 2006"}}</div>
+    <a href="{{ .Permalink }}">
+      <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+        <a href="{{ .Permalink }}" class="h3 mb-1 d-block">{{ .Title }}</a>
+        <p class="mb-0">{{ .Summary | truncate 100 }}</p>
+      </div>
+    </a>
+</li>
