@@ -1,0 +1,29 @@
+---
+label: Partner
+hide_body: false
+fields:
+  - type: text
+    name: title
+    label: title
+  - type: datetime
+    name: date
+    label: date
+  - type: file
+    name: bg_image
+    label: bg image
+    description: Page header background image
+  - type: textarea
+    name: partner_description
+    label: partner_description
+    description: meta description
+  - type: file
+    name: partner_image
+    label: partner_image
+  - type: text
+    name: partner_link
+    label: partner_link
+    description: Application submit link
+  - type: text
+    name: type
+    label: type
+    default: partner

@@ -1,0 +1,9 @@
+<div class="border rounded-0 hover-shadow mb-0 mb-xl-3 row justify-content-center">
+  <img class="rounded-0 portrait-bg p-3 col-xl-4" src="{{ .Params.partner_image | relURL }}" alt="{{ .Title }}">
+  <div class="card-body col-xl-8">
+    <!-- <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4> -->
+    <h4 class="card-title">{{ .Title }}</h4>
+    <!-- <li class="mb-3"><a href="{{ .Params.partner_link }}">{{ .Params.partner_link }}</a></li> -->
+    <p>{{ .Params.partner_description }}</p>
+  </div>
+</div>
