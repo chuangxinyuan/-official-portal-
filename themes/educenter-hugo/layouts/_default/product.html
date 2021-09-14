@@ -1,8 +1,11 @@
 <div class="card p-0 border-primary rounded-0 hover-shadow">
-  <img class="img-fluid w-100" style="width: 100%;object-fit: cover;" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
-  <div class="card-body">
-    <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-    <p class="card-text mb-2" style="height: 4rem;">{{ .Summary | truncate 30 }}</p>
-    <a href="{{ .Params.apply_url }}" target="_blank" class="btn btn-primary btn-sm">{{ .Params.Apply_name }}</a>
-  </div>
+  <a href="{{ .Permalink }}">
+    <img class="img-fluid w-100" style="width: 100%;object-fit: cover;" src="{{ .Params.Image | relURL }}"
+      alt="{{ .Title }}">
+    <div class="card-body">
+      <h4 class="card-title">{{ .Title }}</h4>
+      <p class="card-text mb-2" style="height: 5.5rem;">{{ .Summary | truncate 40 }}</p>
+      <!-- <a href="{{ .Params.apply_url }}" target="_blank" class="btn btn-primary btn-sm">{{ .Params.Apply_name }}</a> -->
+    </div>
+  </a>
 </div>

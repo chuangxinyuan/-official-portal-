@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://www.shaiic.com"
+baseURL = "https://www.shaiic.com/"
 title = "上海仪电人工智能创新院"
 theme = "educenter-hugo"
 themesDir = "themes"
@@ -7,7 +7,7 @@ themesDir = "themes"
 paginate = "6"
 # post excerpt
 summaryLength = "10"
-# disqus short name
+# ddisqus short name
 disqusShortname = "shaiic" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = [] # desable language from here
@@ -63,10 +63,10 @@ hasChildren = true
   name = "defect-detect"
   URL = "solution/defect-detect"
   
-  [[menu.main]]
-  parent = "solution"
-  name = "helmet-detect"
-  URL = "solution/helmet-detect"
+  # [[menu.main]]
+  # parent = "solution"
+  # name = "helmet-detect"
+  # URL = "solution/helmet-detect"
 
   [[menu.main]]
   parent = "solution"

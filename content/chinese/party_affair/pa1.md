@@ -5,7 +5,7 @@ date: 2020-07-13T15:27:17+06:00
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # about image
-image: "https://www.shaiic.com/picture/1597802724336.png"
+image: "images/backgrounds/success-story.jpg"
 # meta description
 description: "创新院党支部"
 category: "party-event"

@@ -6,11 +6,13 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 ">
         {{ with .Params.Image }}
         <img class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">
         {{ end }}
-        {{ .Content }}
+        <div class="col-12 newsbody">
+          {{ .Content }}
+        </div>
       </div>
     </div>
   </div>
